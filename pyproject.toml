@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "flwr-datasets[vision]>=0.5.0",
+    "flwr[simulation]>=1.21.0",
     "holidays>=0.80",
     "ipykernel>=6.29.5",
     "matplotlib>=3.10.1",
@@ -21,6 +23,7 @@ dependencies = [
     "statsmodels>=0.14.4",
     "sympy>=1.13.3",
     "torch>=2.8.0",
+    "torchvision>=0.23.0",
     "utilsforecast>=0.2.12",
     "xgboost>=3.0.4",
     "ydata-profiling>=4.12.2",
